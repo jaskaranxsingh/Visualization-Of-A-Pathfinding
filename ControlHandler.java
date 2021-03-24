@@ -10,11 +10,7 @@ import javax.swing.JSlider;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-/* This class manages all components used on the main
- * control panel (bottom left) Meant to remove some
- * excessive graphics code from "Frame.java" class
- * by Devon Crawford
- */
+
 public class ControlHandler {
 	private Frame frame;
 	private JLabel modeText, speedT, speedC, openT, 
