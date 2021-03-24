@@ -23,11 +23,7 @@ import javax.swing.Timer;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-/* The main graphics class for APathfinding. Controls the window,
- * and all path finding node graphics. Need to work on zoom function,
- * currently only zooms to top left corner rather than towards mouse
- * by Devon Crawford
- */
+
 public class Frame extends JPanel
 		implements ActionListener, MouseListener, MouseMotionListener, MouseWheelListener, KeyListener {
 
