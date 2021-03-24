@@ -1,9 +1,6 @@
 import java.awt.Color;
 import java.awt.Font;
 
-/* Custom fonts and colours used in "Frame.java" class
- * by Devon Crawford
- */
 public @interface style {
 	Font bigText = new Font("arial", Font.BOLD, 24);
 	Font REALBIGText = new Font("arial", Font.BOLD, 72);
